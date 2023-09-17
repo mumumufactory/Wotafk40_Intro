@@ -1,7 +1,7 @@
 Wotafk40 - A Scratchbuild Keyboard
 ==================================
 
-(c) 2022 ムムム製作所
+(c) 2022-2023 ムムム製作所
 
 ***NOTE: Wotafk40 is not for beginners.
 You will need a deep understanding of
@@ -244,3 +244,10 @@ Wotafk40のハードウェア製作に必要なファイルを公開していま
 
 Wotafk40に搭載のRaspberry Pi Zero上で動かして、
 PCから見てUSBキーボードとして振舞わせるためのソフトウェアを公開予定です。
+
+2023年9月現在、キーボードとしてまずまず動作するソフトが出来つつありますが、
+レガシーなPiCamera (v1.xx) Pythonモジュールを用いて構築しているので、
+現行のBullseyeベースのPi OSだと逆に手間がかかることもあり、
+ちょっと公開を見合わせています。
+現行Pi OSで標準対応するPicamera2を試してみて十分性能が出るかどうかを確認してから、
+あらためて公開を検討します。
